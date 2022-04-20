@@ -1,6 +1,7 @@
 import 'package:list_combinations/list_combinations.dart';
 
 void main() {
-  List<int> xs = [1, 2, 3];
+  int l = 6;
+  List<int> xs = [for (int i = 0; i < l; i++) i];
   print(xs.allCombinations);
 }
